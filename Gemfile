@@ -12,6 +12,8 @@ gem 'require_all'
 group :development do
 	gem 'shotgun'
 	gem 'pry'
+	gem 'tux' #gives us an interactive console that pre-loads database and AR relationships
+	gem 'sqlite3' #allows Ruby app to communicate with a SQL database
 end
 
 group :test do
